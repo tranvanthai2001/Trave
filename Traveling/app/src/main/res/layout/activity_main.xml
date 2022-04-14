@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="Welcome"
+            android:textColor="#FF3300"
+            android:textSize="50dp"
+            android:textStyle="italic"></TextView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/bgr1">
+        </ImageView>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Tour"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/tour">
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:text="Food"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/food">
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
